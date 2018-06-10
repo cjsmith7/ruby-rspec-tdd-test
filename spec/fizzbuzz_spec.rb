@@ -22,4 +22,7 @@ describe 'fizzbuzz' do
     it 'returns "buzz" when given 10' do
         expect(FizzBuzz::fizzle_buzzle(10)).to eq('buzz')
     end
+    it 'returns "fizzbuzz" when given 15' do
+        expect(FizzBuzz::fizzle_buzzle(15)).to eq('fizzbuzz')
+    end
 end
