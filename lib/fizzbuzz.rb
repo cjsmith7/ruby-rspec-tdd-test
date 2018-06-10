@@ -1,5 +1,5 @@
 class FizzBuzz
     def self.fizzle_buzzle(num)
-        return 1
+        return num
     end
 end
