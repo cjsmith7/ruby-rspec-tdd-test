@@ -10,10 +10,13 @@ describe 'fizzbuzz' do
     it 'returns "fizz" when given 3' do
         expect(FizzBuzz::fizzle_buzzle(3)).to eq('fizz')
     end
-    it "returns 4 when given 4" do 
+    it 'returns 4 when given 4' do 
         expect(FizzBuzz::fizzle_buzzle(4)).to eq(4)
     end
     it 'returns "buzz" when given 5' do
         expect(FizzBuzz::fizzle_buzzle(5)).to eq('buzz')
+    end
+    it 'returns "fizz" when given 6' do 
+        expect(FizzBuzz::fizzle_buzzle(6)).to eq('fizz')
     end
 end
